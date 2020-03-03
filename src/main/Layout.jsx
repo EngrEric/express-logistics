@@ -14,7 +14,7 @@ export const Layout = ({ children }) => {
     <>
       <Navbar />
       {/* <BodyWrapper className="container">{children}</BodyWrapper> */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
