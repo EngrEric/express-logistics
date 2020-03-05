@@ -11,5 +11,8 @@ export const navList = [
   },
   {
     title: "Support"
+  },
+  {
+    title: 'Sign Up'
   }
 ];
