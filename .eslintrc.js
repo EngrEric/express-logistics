@@ -8,10 +8,17 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module"
   },
+
+  plugins: ["react"],
+
   plugins: ["prettier"],
   rules: {
     // "prettier/prettier": ["error"]
-  }
+  },
+  rules: {   
+    "react/jsx-uses-react": "error",   
+    "react/jsx-uses-vars": "error" 
+}
 };
 
 // module.exports = {
